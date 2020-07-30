@@ -28,3 +28,5 @@ function drawChess() {
 }
 
 drawChess();
+
+// дальше пока не разобрался
