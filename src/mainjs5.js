@@ -15,7 +15,8 @@ function drawChess() {
 
  			coordinate = document.createElement("span"); // заготовка: создаем новый элемент типа span 
  			block.appendChild(coordinate); // ... и добавляем внутри родителя  block элемент типа span для вывода координат клетки (я пока не разобрался, как это сделать)
-
+ 			coordinate.textContent = `${i} ${j}`;
+ 			coordinate.style.color = "red";
 
  			if (flag) block.className = "block black";
  			else block.className = "block white";
